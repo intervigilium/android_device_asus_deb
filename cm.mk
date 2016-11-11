@@ -27,6 +27,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=razorg \
     BUILD_FINGERPRINT=google/razorg/deb:6.0.1/MOB30X/3036618:user/release-keys \
     PRIVATE_BUILD_DESC="razorg-user 6.0.1 MOB30X 3036618 release-keys"
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.isUsbOtgEnabled=1

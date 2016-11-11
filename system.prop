@@ -7,3 +7,6 @@ ro.telephony.default_network=9
 persist.radio.use_cc_names=true
 
 telephony.lteOnGsmDevice=1
+
+# Bluetooth
+qcom.bluetooth.soc=smd
