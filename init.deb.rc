@@ -21,6 +21,7 @@ on early-init
     mount debugfs debugfs /sys/kernel/debug
     chown system system /sys/kernel/debug/kgsl/proc
     symlink /data/tombstones /tombstones
+    export LD_SHIM_LIBS "/system/vendor/lib/libwvm.so|libshim_wvm.so"
 
 on init
     # Support legacy paths
